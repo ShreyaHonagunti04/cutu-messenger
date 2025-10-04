@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Miss You More Than Words Can Say</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating Hearts Background -->
+    <div class="hearts-container" id="heartsContainer"></div>
+    
+    <!-- Navigation -->
+    <nav class="navigation">
+        <div class="nav-container">
+            <a href="#hero" class="nav-link">Home</a>
+            <a href="#questionnaire" class="nav-link">Share Your Heart</a>
+            <a href="#responses" class="nav-link hidden" id="viewResponsesNav">View Responses</a>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="pulsating-heart">
+                <div class="heart-icon">❤️</div>
+            </div>
+            <h1 class="hero-title">
+                <span class="typewriter" id="mainTitle">I Miss You Dumma</span>
+            </h1>
+            <h2 class="hero-subtitle fade-in-up">
+                My Beautiful Love
+            </h2>
+            <p class="hero-description fade-in-up">
+                You are my everything, my highest priority, the center of my universe
+            </p>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- Love Message Section -->
+    <section class="love-message">
+        <div class="container">
+            <div class="message-content">
+                <h2 class="section-title fade-in">My Heart Speaks to You</h2>
+                <div class="love-text-container">
+                    <p class="love-text fade-in-up" data-delay="0">
+                        Every sunrise reminds me of your beautiful smile, and every sunset makes me long for your embrace. You are not just my girlfriend, you are my everything - my heart, my soul, my reason for being. The distance between us feels unbearable because you mean the absolute world to me.
+                    </p>
+                    <p class="love-text fade-in-up" data-delay="1">
+                        My darling, you are the highest priority in my life, above everything and everyone else. Every breath I take, every heartbeat, every thought is dedicated to you. I miss your laughter, your touch, your presence beside me. You complete me in ways I never knew were possible.
+                    </p>
+                    <p class="love-text fade-in-up" data-delay="2">
+                        Without you here, I feel like a part of my soul is missing. You are the most important person in my universe, the center of everything that matters to me. I count every second until I can hold you again, kiss you again, and tell you face to face how desperately I love you.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Memory Section -->
+    <section class="memories">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <div class="photo-grid">
+                <div class="photo-item" data-delay="0">
+                    <img src="p1.jpg" alt="Beautiful couple moment" loading="lazy">
+                    <div class="photo-overlay">
+                        <span class="photo-caption">Every moment with you</span>
+                    </div>
+                </div>
+                <div class="photo-item" data-delay="0.2">
+                    <img src="p2.jpg" alt="Romantic moment" loading="lazy">
+                    <div class="photo-overlay">
+                        <span class="photo-caption">Is a treasure</span>
+                    </div>
+                </div>
+                <div class="photo-item" data-delay="0.4">
+                    <img src="p3.jpg" alt="Love moment" loading="lazy">
+                    <div class="photo-overlay">
+                        <span class="photo-caption">That I cherish</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Love Quotes Section -->
+    <section class="quotes">
+        <div class="container">
+            <h2 class="section-title fade-in">Words from My Heart</h2>
+            <div class="quotes-grid">
+                <div class="quote-card fade-in-up" data-delay="0">
+                    <div class="quote-text">"Distance means nothing when someone means everything."</div>
+                    <div class="quote-hearts">💕</div>
+                </div>
+                <div class="quote-card fade-in-up" data-delay="0.2">
+                    <div class="quote-text">"Missing someone is your heart's way of reminding you that you love them."</div>
+                    <div class="quote-hearts">💕</div>
+                </div>
+                <div class="quote-card fade-in-up" data-delay="0.4">
+                    <div class="quote-text">"Every moment without you feels like an eternity."</div>
+                    <div class="quote-hearts">💕</div>
+                </div>
+                <div class="quote-card fade-in-up" data-delay="0.6">
+                    <div class="quote-text">"You are my heart, my soul, my everything."</div>
+                    <div class="quote-hearts">💕</div>
+                </div>
+                <div class="quote-card fade-in-up" data-delay="0.8">
+                    <div class="quote-text">"No matter how far apart we are, you're always in my thoughts."</div>
+                    <div class="quote-hearts">💕</div>
+                </div>
+                <div class="quote-card fade-in-up" data-delay="1.0">
+                    <div class="quote-text">"Love knows no distance, it knows no boundaries."</div>
+                    <div class="quote-hearts">💕</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Hearts Section -->
+    <section class="interactive-hearts">
+        <div class="container">
+            <h2 class="section-title fade-in">Click the Hearts to Feel My Love</h2>
+            <div class="clickable-hearts">
+                <div class="clickable-heart" data-love="I love you more each day">❤️</div>
+                <div class="clickable-heart" data-love="You mean everything to me">💖</div>
+                <div class="clickable-heart" data-love="Missing you terribly">💕</div>
+                <div class="clickable-heart" data-love="You are my world">💗</div>
+                <div class="clickable-heart" data-love="Forever yours">💝</div>
+            </div>
+            <div class="love-message-display" id="loveMessageDisplay"></div>
+        </div>
+    </section>
+
+    <!-- Questionnaire Section -->
+    <section class="questionnaire" id="questionnaire">
+        <div class="container">
+            <div class="questionnaire-header fade-in">
+                <h2 class="section-title">Share Your Heart With Me</h2>
+                <p class="questionnaire-description">
+                    My love, I want to know you deeper. Please share your beautiful thoughts with me. 
+                    Every word you write will be treasured in my heart forever. 💕
+                </p>
+            </div>
+            
+            <form class="questionnaire-form fade-in-up" id="questionnaireForm">
+                <div class="question-card fade-in-up" data-delay="0">
+                    <label class="question-label">
+                        <span class="question-number">1.</span>
+                        What's something you've always wanted to do with me but never said out loud?
+                    </label>
+                    <textarea class="question-input" name="question1" placeholder="Share your secret wishes with me..." required></textarea>
+                </div>
+
+                <div class="question-card fade-in-up" data-delay="0.1">
+                    <label class="question-label">
+                        <span class="question-number">2.</span>
+                        What makes you feel most loved and appreciated by me?
+                    </label>
+                    <textarea class="question-input" name="question2" placeholder="Tell me about the moments that touch your heart..." required></textarea>
+                </div>
+
+                <div class="question-card fade-in-up" data-delay="0.2">
+                    <label class="question-label">
+                        <span class="question-number">3.</span>
+                        What are some small things I could do that would make your day better?
+                    </label>
+                    <textarea class="question-input" name="question3" placeholder="Even the smallest gestures matter to me..." required></textarea>
+                </div>
+
+                <div class="question-card fade-in-up" data-delay="0.3">
+                    <label class="question-label">
+                        <span class="question-number">4.</span>
+                        What kind of partner do you need me to be as we grow together?
+                    </label>
+                    <textarea class="question-input" name="question4" placeholder="Help me understand how to love you better..." required></textarea>
+                </div>
+
+                <div class="question-card fade-in-up" data-delay="0.4">
+                    <label class="question-label">
+                        <span class="question-number">5.</span>
+                        What's one thing I've done that made you feel deeply loved or proud of me?
+                    </label>
+                    <textarea class="question-input" name="question5" placeholder="Share a memory that made your heart flutter..." required></textarea>
+                </div>
+
+                <div class="question-card fade-in-up" data-delay="0.5">
+                    <label class="question-label">
+                        <span class="question-number">6.</span>
+                        What's a fantasy or crazy idea you think we'd actually pull off together?
+                    </label>
+                    <textarea class="question-input" name="question6" placeholder="Let's dream big together..." required></textarea>
+                </div>
+
+                <div class="question-card fade-in-up" data-delay="0.6">
+                    <label class="question-label">
+                        <span class="question-number">7.</span>
+                        What's your wildest fantasy that you want to perform with me?
+                    </label>
+                    <textarea class="question-input" name="question7" placeholder="Share your deepest desires with me..." required></textarea>
+                </div>
+
+                <div class="question-card fade-in-up" data-delay="0.7">
+                    <label class="question-label">
+                        <span class="question-number">8.</span>
+                        When did you first realize you were falling for me — and what made you sure?
+                    </label>
+                    <textarea class="question-input" name="question8" placeholder="Take me back to that beautiful moment..." required></textarea>
+                </div>
+
+                <div class="question-card fade-in-up" data-delay="0.8">
+                    <label class="question-label">
+                        <span class="question-number">9.</span>
+                        What's your biggest turn on?
+                    </label>
+                    <textarea class="question-input" name="question9" placeholder="Help me understand what ignites your passion..." required></textarea>
+                </div>
+
+                <div class="question-card fade-in-up" data-delay="0.9">
+                    <label class="question-label">
+                        <span class="question-number">10.</span>
+                        How do you imagine our future together, and what can I do to make it closer to that vision?
+                    </label>
+                    <textarea class="question-input" name="question10" placeholder="Paint me a picture of our tomorrow..." required></textarea>
+                </div>
+
+                <div class="question-card fade-in-up" data-delay="1.0">
+                    <label class="question-label">
+                        <span class="question-number">11.</span>
+                        Any other suggestions or changes that I must incorporate in me to our lives better?
+                    </label>
+                    <textarea class="question-input" name="question11" placeholder="Your thoughts will help me become the best partner for you..." required></textarea>
+                </div>
+
+                <div class="form-actions fade-in-up" data-delay="1.1">
+                    <button type="submit" class="submit-btn">
+                        <span class="btn-text">Send My Heart to You</span>
+                        <span class="btn-heart">💕</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Thank You Section -->
+    <section class="thank-you hidden" id="thankYou">
+        <div class="container">
+            <div class="thank-you-content">
+                <div class="thank-you-hearts">💖💕💝</div>
+                <h2 class="thank-you-title">Thank You, My Beautiful Love</h2>
+                <p class="thank-you-message">
+                    Your words have touched my soul. Every answer you've shared is a precious gift that I will treasure forever. 
+                    You've just made me fall in love with you all over again. 💕
+                </p>
+                <div class="thank-you-timestamp" id="submissionTime"></div>
+                <button class="btn-secondary" id="viewResponsesBtn">View Your Beautiful Responses</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Responses Section -->
+    <section class="responses hidden" id="responses">
+        <div class="container">
+            <div class="responses-header">
+                <h2 class="section-title">Your Beautiful Heart Speaks</h2>
+                <p class="responses-description">
+                    These are your precious words, my love. Each response is a window into your beautiful soul.
+                </p>
+            </div>
+            <div class="responses-content" id="responsesContent">
+                <!-- Responses will be populated by JavaScript -->
+            </div>
+            <div class="responses-actions">
+                <button class="btn-outline" id="editResponsesBtn">Edit My Responses</button>
+                <button class="btn-primary" id="backToFormBtn">Fill Out Again</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Message -->
+    <section class="final-message">
+        <div class="container">
+            <div class="final-content fade-in">
+                <h2 class="final-title">Until We Meet Again</h2>
+                <p class="final-text">
+                    Every star in the sky represents a reason why I love you. Every breath I take is a reminder of how much I need you. You are not just important to me - you ARE my everything. I miss you beyond measure, and I can't wait to hold you in my arms again.
+                </p>
+                <div class="signature">
+                    Forever yours, with all my love ❤️
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Email Sharing Modal (Dynamically Added by JavaScript) -->
+    <!-- The email modal will be created by JavaScript in the initEmailSharing function -->
+
+    <script src="app.js"></script>
+</body>
+</html>
